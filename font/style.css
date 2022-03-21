@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.home__description, .wrapper p, .achieve__container {
+    font-family: Consolas, monaco, monospace;
+}
+.home__name, th {
+    font-family: Shadows Into Light,cursive;
+}
+.about__container__head, h4 {
+    font-family: 'Caveat', cursive;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+.about__container__personality {
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.07em;
+    font-weight: 600;
+}
+td {
+    font-family: "Hiragino Mincho ProN","ヒラギノ明朝 ProN","游明朝",YuMincho,"HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    font-weight: bold;
+}
+.navbar__link, .navbar__link:hover, .wrapper__title {
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+}
+.card__content, .item__content {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

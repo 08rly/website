@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/icons/ShortCut.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=1024"/>
+    <meta name="description" content="webポートフォリオを作成しました">
+    <title>Ryuichiro's Portfolio</title>
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="font/style.css">
+    <script src="js/Animation.js" defer></script>
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="bg__firstview" id="firstview">
+    <div class="bg">
+    
+<!-- ヘッダー -->
+    <header>
+        <nav style="opacity: 0.5;">
+            <ul class="navbar">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#about">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#skill">Skill</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#doing">Doing</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!-- home/first view -->
+        <section class="top" id="home">
+            <div class="home__wrapper">
+                <div class="home__name">
+                    MIZUTANI<br>RYUICHIRO
+                </div>
+                <div class="home__description">
+                    I am 19 y/o. I'm the egg of a web developer. I was born in Mie.
+                    I'm studying at Trident Computer College.
+                    engineering, development, fashion
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+<!-- about -->
+        <section class="wrapper" id="about">
+            <h1 class="wrapper__title">-About-</h1>
+            <h2 class="about__container__head">-Profile</h2>
+            <div class="about__container__profile">
+                <div class="about__discription">
+                    <table cellpadding="12">
+                        <tr>
+                            <th>name</th>
+                            <td><em>水谷 隆一郎</em></td>
+                        </tr>
+                        <tr>
+                            <th>now</th>
+                            <td><em>トライデント<br>コンピュータ専門学校</em></td>
+                        </tr>
+                        <tr>
+                            <th>Birthday</th>
+                            <td><em>2002/08/22</em></td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- 自分の写真 -->
+                <div class="about__image">
+                <img src="/images/person.JPG" width="100%" height="100%">
+                </div>
+            </div>
+            <h2 class="about__container__head">-Personality</h2>
+            <div class="about__container__personality">
+                <div class="about__personality__discription">
+                    <ul>
+                        <li onmouseover="Over(0, 'swapText0')" onmouseout="Out('swapText0')">
+                            夢想家
+                            <div id="swapText0" style="visibility:hidden; font-size:15px; background-color:#FFFFFF; border-style: ridge;">text</div>
+                        </li>
+                        <li onmouseover="Over(1, 'swapText1')" onmouseout="Out('swapText1')">
+                            多趣味
+                            <div id="swapText1" style="visibility:hidden; font-size:15px; background-color:#FFFFFF; border-style: ridge;">text</div>
+                        </li>
+                        <li onmouseover="Over(2, 'swapText2')" onmouseout="Out('swapText2')">
+                            動くことが好き
+                            <div id="swapText2" style="visibility:hidden; font-size:15px; background-color:#FFFFFF; border-style: ridge;">text</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tree_figure">
+                    <img src="images/Experience.png" alt="Experience">
+                </div>
+            </div>
+        </section>
+<!-- skill -->
+        <section class="wrapper" id="skill">
+            <h1 class="wrapper__title">-Skill-</h1>
+            <div class="about__container__skill">
+                <div class="cards">
+                    <div class="card__block">
+                    <div class="card">
+                        <img class="card__img" src="./images/icons/html_logo.png" alt="HTML5">
+                        <div class="card__content">
+                            <div class="card__title">HTML5/CSS</div>
+                            <div class="card__lead">
+                                基本的なHTML5, CSS, Sass(SCSS)については、
+                                webサイト制作をする上で使用しています。
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="./images/icons/java_logo.png" alt="Java">
+                        <div class="card__content">
+                            <div class="card__title">Java</div>
+                            <div class="card__lead">
+                                授業で使用しています。Androidアプリ,
+                                Webアプリの開発と双方の学習,実装を予定しており、学習しています。
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card__block">
+                        <div class="card">
+                            <img class="card__img" src="./images/icons/JavaScript_logo.png" alt="JavaScript">
+                            <div class="card__content">
+                                <div class="card__title">JavaScript</div>
+                                <div class="card__lead">
+                                    このサイトが初めての実装です。
+                                    今後はSPAの導入,UI/UXの向上などライブラリやフレームワークの知識をつけてアップデートを考えています。
+                                </div>
+                            </div>
+                        </div>
+                    <div class="card">
+                        <img class="card__img"src="./images/icons/python_logo.png" alt="Python" width="420px">
+                        <div class="card__content">
+                            <div class="card__title">Python</div>
+                            <div class="card__lead">
+                                競技プログラミングサイトAtcoderで使用しています。
+                                現在は250程度ですが、茶色レート(400)を目標に毎週参加しています。
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Service -->
+        <section class="wrapper" id="doing">
+            <h1 class="wrapper__title">-Doing-</h1>
+            <div class="items" id="Doing__cards">
+                <div class="item">
+                    <img class="item__img" src="images/icons/license.png" alt="レスポンシブ対応">
+                    <div class="item__content">
+                        <h3 class="item__title">資格</h3>
+                        <p class="item__title">Study Licenses</p>
+                        <div class="item__lead">
+                            2022年3月現在、春に再受験する応用情報技術者試験に向けて日々学習しています！！
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item__img" src="images/icons/movie.png" alt="スピーディ対応">
+                    <div class="item__content">
+                        <h3 class="item__title">映画・ドラマ</h3>
+                        <p class="item__title">movie, drama</p> 
+                        <div class="item__lead">
+                            感動モノが好きです！感情が揺さぶられやすく、感極まってしまうこともありますが、見終わった後は心が暖かくなってます。
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="item__img" src="images/icons/cording.png" alt="Cording">
+                    <div class="item__content">
+                        <h3 class="item__title">開発</h3>
+                        <p class="item__title">development</p>
+                        <div class="item__lead">
+                            モノの制作, 競技プログラミングを通して日々学習しています！PCを触らない日はないぐらい没頭して取り組んでいます（笑）
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--Achievement-->
+        </section>
+        <section class="wrapper" id="achievement">
+            <h2 class="wrapper__title">-Achievement-</h2>
+            <div class="achieve__container">
+                <div class="achieve__card">
+                    <h2 class="achieve__title">
+                        webアプリ
+                    </h2>
+                    <div class="achieve__img">
+                            <img src="/images/app01.png" alt="appPhoto">
+                            <img src="/images/app02.png" alt="appPhoto">
+                    </div>
+                    <div class="achieve__lead">
+                        <p>実際に使えるアプリを使いたい！と思い、<br>タスク・スケジュール管理アプリを作成しました。<br>今後は期限切れのタスクを削除する機能などの実装を予定しています。<br><br><u><em>※２０２２年３月２１日現在アプリの公開ができておりません。。</em></u><br>今週末github上にてデプロイする予定です。すみません。</p>
+                        <h3>技術スタック</h3>
+                        <p>Python, Flask, sqlite, bootstrap, html, fullcalendar.js</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- contact -->
+        <section class="wrapper" id="contact">
+                <h2 class="wrapper__title">-Contact-</h2>
+                <h4>email</h4>
+                <p>212255rlm@gmail.com</p>
+                <h4>account</h4>
+                <div class="sns__icon">
+                    <a href="https://twitter.com/8rly_"><img class="sns" src="images/icons/twitter.png"></a>
+                    <a href="https://github.com/08rly"><img class="sns" src="images/icons/github.png"></a>
+                    <a href="https://atcoder.jp/users/rly"><img class="sns" src="images/icons/atcoder.png"></a>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer__navbar">
+            <li class="footer__navbar__item">
+                <a class="footer__navbar__link" href="#home">Home</a>
+            </li>
+            <li class="footer__navbar__item">
+                <a class="footer__navbar__link" href="#about">About</a>
+            </li>
+            <li class="footer__navbar__item">
+                <a class="footer__navbar__link" href="#skill">Skill</a>
+            </li>
+            <li class="footer__navbar__item">
+                <a class="footer__navbar__link" href="#doing">Doing</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
